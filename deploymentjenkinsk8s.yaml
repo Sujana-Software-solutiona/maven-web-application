@@ -23,7 +23,7 @@ spec:
                 spec:
                         containers:
                                 - name: pipelinecontainer
-                                  image: sujanadevops/kubernetes-deployment:1
+                                  image: sujanadevops/kubernetes-deployment:${BUILD_NUMBER}
                                   ports:
                                           - containerPort: 8080
 ---
